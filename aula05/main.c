@@ -22,6 +22,18 @@ int main() {
     }
 
     int tamanho;
+    printf("Digite o tamanho da lista: ");
+    scanf("%d",&tamanho);
+    int lista[tamanho];
+    for(int i=0; i<tamanho; i++){
+        printf("Digite um numero: ");
+        scanf("%d",&lista[i]);
+    }
+    for(int i=0; i<tamanho; i++){
+        printf("%d\n",lista[i]);
+    }
+
+    int tamanho;
     int lista[3]={1,2,3};
     tamanho=sizeof(lista)/sizeof(lista[0]);
     exibir_vetor(lista,tamanho);
