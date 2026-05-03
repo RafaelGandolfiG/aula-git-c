@@ -60,7 +60,7 @@ int main() {
     float media;
     float nota1;
     float nota2;
-    float soma;
+    float soma=0;
     int presenca;
     printf("------MENU------\n");
     printf("1-Calcular media\n2-Verificar presença\n3-Aprovacao\nEscolha: ");
